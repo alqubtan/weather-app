@@ -1,4 +1,4 @@
-
+console.log('')
 const weatherForm = document.querySelector('form');
 const searchElement = document.querySelector('input');
 const mes0 = document.querySelector('#mes0');
