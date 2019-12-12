@@ -29,7 +29,7 @@ const fetchData = (location) => {
 
             mes0.textContent = ''
             mes1.textContent = data.summary
-            mes2.textContent =  'temperature now : ' + (data.currently-32)*5/9
+            mes2.textContent =  'temperature now : ' + data.currently
             mes3.textContent = 'Wind Speed : ' + data.windSpeed
             mes4.textContent = 'Probability to Rain : ' + data.precipProbability
             mes5.textContent = 'for this week : ' + data.daily           
@@ -38,7 +38,6 @@ const fetchData = (location) => {
      })
      
 }
-
 
 
 
