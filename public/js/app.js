@@ -18,7 +18,7 @@ const clearHistory = (elements) => {
 const fetchData = (location) => {
 
     
-    const url = 'http://localhost:3000/weather?address='+location
+    const url = '/weather?address='+location
     
     
     fetch(url).then((res) => {
